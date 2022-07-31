@@ -1,0 +1,78 @@
+* {	font-family: "Inter", sans-serif;
+	font-size: 28px; line-height: 48px
+}
+
+body {background-color: lavender}
+
+#logo {	width: 180px;
+		display: inline;
+		margin-top: 90px;
+		margin-left: 30px}
+
+main {display: flex;
+	  margin-left: 80px;
+	  margin-bottom: 50px}
+
+.informacao {font-size: 20px;
+			 margin-left: 300px;
+			 margin-top: 8px}
+
+.input-texto {margin-top: 124px;
+			  margin-left: 50px;
+			  display: inline;
+			  border: 2px solid darkblue;
+			  border-radius: 20px;
+			  color: darkblue;}
+
+.mensagem {margin-top: 124px;
+		   border: 2px solid darkblue;
+		   border-radius: 20px;
+		   background-image: url(bonequinho.png);
+		   background-repeat:no-repeat}
+
+.encriptar {font-size: 20px;
+			margin-left: 270px;
+			background-color: darkblue;
+			color: white;
+			border-radius: 18px}
+
+.encriptar:hover {background-color: white;
+				  color: darkblue;
+				  border: 2px darkblue solid;
+				  cursor: pointer}
+
+.desencriptar {font-size: 20px;
+			   margin-left: 10px;
+			   background-color: darkblue; 
+			   color: white; 
+			   border-radius: 18px}
+
+.desencriptar:hover {background-color: white;
+					 color: darkblue;
+					 border: 2px darkblue solid;
+					 cursor: pointer}
+
+.copiarTexto {font-size: 20px;
+			  margin-left: 10px;
+			  background-color: darkblue;
+			  color: white;
+			  border-radius: 18px}
+
+.copiarTexto:hover {background-color: white;
+				    color: darkblue;
+				    border: 2px darkblue solid;
+				    cursor: pointer}
+
+.recarregar {padding: 0 20px;
+			 font-size: 20px; 
+			 margin-left: 420px; 
+			 margin-top: 20px;
+			 background-color: darkblue;
+			 color: white;
+			 border-radius: 18px}
+
+.recarregar:hover {background-color: yellow;
+				   color: darkblue;
+				   border: 2px darkblue solid;
+				   cursor: pointer}
+				   
